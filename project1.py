@@ -12,3 +12,8 @@ def ge():
     print("Good evening")
 def gn():
     print("Good night")
+
+def funct(x):
+    return x
+name = funct()
+print(name)

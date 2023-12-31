@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Learning Form</title>
+</head>
+<body>
+    
+    <form action="submit_form.php" method="post">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label>What would you like to learn?</label>
+        <div>
+            <input type="checkbox" id="python" name="learningPython" value="Python">
+            <label for="python">Python</label>
+        </div>
+        <div>
+            <input type="checkbox" id="excel" name="learningExcel" value="MS Excel">
+            <label for="excel">MS Excel</label>
+        </div>
+        <div>
+            <input type="checkbox" id="powerBI" name="learningPowerBI" value="PowerBI">
+            <label for="powerBI">PowerBI</label>
+        </div>
+        <div>
+            <input type="checkbox" id="r" name="learningR" value="R">
+            <label for="r">R</label>
+        </div>
+
+        <button type="submit">Submit</button>
+        <a class="home" href="/">Home</a>
+    </form>
+</body>
+</html>
